@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="04AB2D37-9DE9-CA2B-D221-C40B3E10E55B" name="client">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:13:11 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id utilisateur" id="F35C6ABC-660B-80F6-DD15-7F88522F3622">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:13:11 UTC</createdTime>
+<generatorID>C4A0CF2A-42EA-70FD-E0D2-DCAAEEAEC43E</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5DEDAC3B-4C9A-64FE-5A5B-14EB2FD404E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id client" id="3518C3F5-4837-0F47-E670-0E55DD1FFF46">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>078F3058-ACF1-D919-465D-C2D298FFBF9F</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prenom" id="C118C799-5E20-6CCD-1828-40C194A49264">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>0E0243A8-8C10-E44B-D237-FA2D4EEA5972</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="2972CD29-2DB3-13A0-C0FB-53E37C0FF966">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>B6F4C139-7E2A-954D-0277-BC914B8CA773</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresse" id="ADD8DBF7-7FF0-5672-F2DF-372699D527EC">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>DC78586F-F27A-029B-9D25-6E21043A4902</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telephone" id="69930A64-9D72-505D-6DEC-0775B0008BC7">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>B610842A-ECB2-1666-2626-5508234FD784</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="courriel" id="6D19619D-CB6C-5BDD-8C2E-C77C4A69EDAB">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>8D895855-100D-D36B-912D-7E265C862AD4</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="photo profil" id="F3BB7447-73B0-7CCF-4B44-B707D8ADC6B0">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[path to uploads file]]></commentInRDBMS>
+<generatorID>9CDCC031-7A60-22CC-1924-33F3D47A2C36</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="liste_favoris" id="2D9D465D-74AC-CBCA-315B-05F0A9A54A85">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-05 21:38:45 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="utilisateur id utilisateur" id="2CF97C03-F219-9A1C-AA32-10CEC93CA07F">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>C4A0CF2A-42EA-70FD-E0D2-DCAAEEAEC43E</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5DEDAC3B-4C9A-64FE-5A5B-14EB2FD404E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20A34590-EE35-88B8-D125-65E912C709D7" name="client PK">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>7F96ACCD-F2DE-3B83-AE27-D4A142345006</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3518C3F5-4837-0F47-E670-0E55DD1FFF46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

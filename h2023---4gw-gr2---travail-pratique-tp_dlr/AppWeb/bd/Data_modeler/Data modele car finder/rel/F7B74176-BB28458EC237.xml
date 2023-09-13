@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="F7B74176-2693-7944-D8CE-BB28458EC237" mainViewID="2144F83B-22AC-8F0B-EB1B-2ED2C86DE509">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:28:51 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="07518B5F-BD23-D367-E633-AED6ECC493D6" mainViewID="AD2DB0C0-DAE6-0804-6E2B-994E967806DA">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:27:21 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

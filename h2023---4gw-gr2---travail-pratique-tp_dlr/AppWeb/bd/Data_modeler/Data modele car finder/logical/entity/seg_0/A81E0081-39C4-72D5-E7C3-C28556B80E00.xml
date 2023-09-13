@@ -1,0 +1,258 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A81E0081-39C4-72D5-E7C3-C28556B80E00" name="voiture">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:36:05 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_voiture" id="B17156FB-FE88-E0B8-288D-437D49D3F338">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:36:16 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titre" id="414DD89B-AC76-C061-C406-A9D2A40A323C">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:36:36 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marque" id="B5A1B8D7-4255-46B5-8052-ACA90AD9F9E2">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:36:58 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modele" id="AF84A4CA-7A09-DB5C-2C3C-7F9A157EA9FB">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:37:13 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="annee" id="09AB25FF-CEA5-D352-9F0D-F4CB7430A951">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:37:30 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prix" id="56739C90-4084-812F-661D-F0D9064B2859">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:37:54 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="photos_voiture" id="11760A8F-0E79-0C21-13C6-3922218CFA05">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:38:09 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kilometrage" id="E01782A2-FE19-F77D-1A5F-9B1397DC761C">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:38:49 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transmission" id="F425CB3C-8AF4-6230-BEF9-5CF30F603607">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:39:11 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type_carrosserie" id="90B516A2-5E09-9C7E-6580-53E50C98C5E2">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:39:26 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type_carburant" id="D542134A-6261-BD9D-D229-FCF439B9BBC1">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:39:42 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="couleur_exterieur" id="842C1E12-196A-8EC1-F0A0-B7DD39A25A1A">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:39:55 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="couleur_interieur" id="F1CC6335-E2DA-CCCC-B3D9-52B6B702E068">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:40:13 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="moteur" id="ED579900-67C6-BB70-67B7-6BFCA5A62E1D">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:40:50 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_vin" id="695D00B3-B267-E36E-BB71-C7EBCFA5F18B">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:41:05 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="37645D07-B6FA-E44B-4969-09565BDCBF04">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:41:27 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vendeur" id="ACA52E55-32D6-CE0D-8815-271DBF47A80D">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:41:47 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B8F236AA-667A-ACCE-B0F1-2EFBEA353449" name="voiture PK">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:36:32 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B17156FB-FE88-E0B8-288D-437D49D3F338</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

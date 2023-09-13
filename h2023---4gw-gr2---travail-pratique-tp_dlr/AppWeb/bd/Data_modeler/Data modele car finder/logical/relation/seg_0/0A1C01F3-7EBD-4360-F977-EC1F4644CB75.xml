@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="0A1C01F3-7EBD-4360-F977-EC1F4644CB75">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:43:40 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<sourcePk>C53326FD-5412-D84A-78D0-F338E578D034</sourcePk>
+<targetPk>333C10DB-0075-0B55-EF59-478BC85E345D</targetPk>
+<identifying>false</identifying>
+<nameOnSource>envoyer</nameOnSource>
+<nameOnTarget>être lié</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>31CB8969-8BB2-6CDA-DE4B-E630FD92432F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BE98BDEC-1AF7-7C55-59CA-15BF5BE3BFA0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

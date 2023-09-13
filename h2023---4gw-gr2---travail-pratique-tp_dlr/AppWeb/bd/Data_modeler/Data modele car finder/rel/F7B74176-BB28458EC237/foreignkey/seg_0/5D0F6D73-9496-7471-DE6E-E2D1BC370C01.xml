@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5D0F6D73-9496-7471-DE6E-E2D1BC370C01" containerWithKeyObject="2130800C-40AA-D887-0E8B-5EEB51DFF8E1" localFKIndex="5FCADA4A-0EC5-6F8D-22D2-86C760BB1F64" name="utilisateur_message_FK">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:45:47 UTC</createdTime>
+<generatorID>0A1C01F3-7EBD-4360-F977-EC1F4644CB75</generatorID>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<referredTableLongName>message</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>57F686EF-0B7A-2AFE-048F-4CDEA1F020BE</referredTableID>
+<keyObject>3C16BAEA-26E4-2596-F2D0-158BDBB49678</keyObject>
+<referredKeyID>3C16BAEA-26E4-2596-F2D0-158BDBB49678</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_message</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

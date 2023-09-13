@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF970320-4652-CC06-1E60-3F4BFA11B120" name="client">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:45:46 UTC</createdTime>
+<generatorID>37AF602B-A090-8979-9482-294423DFFA81</generatorID>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_client" id="1257F328-D349-673E-7CC1-6C84E1A2D6A6">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:45:46 UTC</createdTime>
+<generatorID>0B391B9E-83DC-4FB0-7EF3-D3BFA1F04419</generatorID>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="8108A1F9-1FA5-9783-E4F2-F27E7B21A31E">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:45:46 UTC</createdTime>
+<generatorID>FD517528-4AA6-00B1-05AE-463FD0C1BE26</generatorID>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenom" id="13982FCB-6AFE-70F1-9C79-45E4A0C16473">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:45:46 UTC</createdTime>
+<generatorID>10DB3EFC-DCA9-5446-4BD9-E25AB2847B7B</generatorID>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresse" id="CB1DB9DB-28FA-F4FE-F460-0FBD422AED75">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:45:46 UTC</createdTime>
+<generatorID>1D4E7348-31D4-0C31-D0BD-0274D86627C6</generatorID>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telephone" id="C11ABDB2-7A34-E1B2-ADFC-07C654028F9A">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:45:46 UTC</createdTime>
+<generatorID>E8CD704F-8D75-50BC-BEB6-67216F3B5B42</generatorID>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="utilisateur_id_utilisateur" id="E2C6FF8B-1185-C81F-3396-0189B37FCB3F">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:45:46 UTC</createdTime>
+<generatorID>B1CAB952-F8ED-B6F3-218E-FB824CEEA299</generatorID>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F28E461-3440-78A1-8137-CB8C281FED5D" referredColumn="BB2EF2E9-4639-9EEE-1E2B-93D54848820A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EAA71055-14DA-DB87-63AC-2A2C78711FAD" name="client_PK">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:45:46 UTC</createdTime>
+<generatorID>720611AD-949B-92D7-C582-6A0F23B03C23</generatorID>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1257F328-D349-673E-7CC1-6C84E1A2D6A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52C5E7F5-1052-FE37-ADF2-0F4C167BE4A6" name="client__IDX">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:45:47 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>715C94BB-B747-5F3A-D22A-C1767093582E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E2C6FF8B-1185-C81F-3396-0189B37FCB3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2704707-3011-A16D-BFCD-6285995E1564" name="client_utilisateur_FK">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:45:46 UTC</createdTime>
+<generatorID>715C94BB-B747-5F3A-D22A-C1767093582E</generatorID>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2C6FF8B-1185-C81F-3396-0189B37FCB3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

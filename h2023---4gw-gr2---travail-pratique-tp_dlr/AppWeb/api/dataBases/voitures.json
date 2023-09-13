@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "644d6bd4e2ddc24484ab505e"
+  },
+  "titre": "2013 Kia optima",
+  "marque": "Kia",
+  "modele": "Optima",
+  "annee": 2013,
+  "prix": 9995,
+  "photos_voiture": [
+    "telechargements\\644d6a2643428fafcbacbfcb-2023-04-29T19-11-16.526Z-339819894_135617025985535_2480994704254881093_n.jpg",
+    "telechargements\\644d6a2643428fafcbacbfcb-2023-04-29T19-11-16.528Z-339821197_198736312903713_1482293838106559510_n.jpg",
+    "telechargements\\644d6a2643428fafcbacbfcb-2023-04-29T19-11-16.531Z-339867249_738130384462111_8854261074325258127_n.jpg",
+    "telechargements\\644d6a2643428fafcbacbfcb-2023-04-29T19-11-16.533Z-339873308_942545557098791_6392724720497953859_n.jpg",
+    "telechargements\\644d6a2643428fafcbacbfcb-2023-04-29T19-11-16.534Z-339879607_228437106401515_3002892239975309472_n.jpg",
+    "telechargements\\644d6a2643428fafcbacbfcb-2023-04-29T19-11-16.536Z-339901648_1603326310187412_1674287046299671259_n.jpg",
+    "telechargements\\644d6a2643428fafcbacbfcb-2023-04-29T19-11-16.536Z-339913519_201955512535243_4543380074707333282_n.jpg",
+    "telechargements\\644d6a2643428fafcbacbfcb-2023-04-29T19-11-16.537Z-339923028_931916448055303_6651916650032683578_n.jpg"
+  ],
+  "kilometrage": 169000,
+  "transmission": "Automatique",
+  "type_carrosserie": "Berline",
+  "type_carburant": "Essence",
+  "couleur_exterieur": "Gris",
+  "couleur_interieur": "Blanc",
+  "moteur": "2L turbo",
+  "numero_vin": "1B7KF26Z5VJ597480",
+  "description": "KIa Optima sx 2l turbo.\r\nToit panoramique. Changement d'huile fait  frein arrière neuf. ",
+  "vendeur": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644d6d0ce2ddc24484ab506d"
+  },
+  "titre": "2014 Subaru brz sport-tech",
+  "marque": "Subaru",
+  "modele": "BRZ",
+  "annee": 2014,
+  "prix": 21500,
+  "photos_voiture": [
+    "telechargements\\644d6c5ae2ddc24484ab5066-2023-04-29T19-16-28.649Z-328271347_5922969887752510_1402960317225431971_n.jpg",
+    "telechargements\\644d6c5ae2ddc24484ab5066-2023-04-29T19-16-28.651Z-340008360_6177172312399392_1908750085008073933_n.jpg",
+    "telechargements\\644d6c5ae2ddc24484ab5066-2023-04-29T19-16-28.652Z-340667263_9305320569507990_6639599262785276629_n.jpg",
+    "telechargements\\644d6c5ae2ddc24484ab5066-2023-04-29T19-16-28.654Z-341162717_6080976728646995_9053997212977574233_n.jpg",
+    "telechargements\\644d6c5ae2ddc24484ab5066-2023-04-29T19-16-28.654Z-341388820_5503840199716834_4410941408489443666_n.jpg",
+    "telechargements\\644d6c5ae2ddc24484ab5066-2023-04-29T19-16-28.657Z-341446878_6293585260662560_2269935064340182363_n.jpg"
+  ],
+  "kilometrage": 105000,
+  "transmission": "Manuelle",
+  "type_carrosserie": "Coupé",
+  "type_carburant": "Essence",
+  "couleur_exterieur": "Grise",
+  "couleur_interieur": "Noir",
+  "moteur": "2.4L 4 cylindre",
+  "numero_vin": "3HGCM56364G702777",
+  "description": "BRZ Sport-tech original condition.\r\nAlways stored during winter.  ",
+  "vendeur": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644d6e18e2ddc24484ab507c"
+  },
+  "titre": "2010 Audi q5",
+  "marque": "Audi",
+  "modele": "Q5",
+  "annee": 2010,
+  "prix": 14994,
+  "photos_voiture": [
+    "telechargements\\644d6d72e2ddc24484ab5075-2023-04-29T19-20-56.907Z-341177930_947424422947924_4310515216864066838_n.jpg",
+    "telechargements\\644d6d72e2ddc24484ab5075-2023-04-29T19-20-56.909Z-341323054_1344446189458302_4763942967764604159_n.jpg",
+    "telechargements\\644d6d72e2ddc24484ab5075-2023-04-29T19-20-56.910Z-341764532_177590305191106_7903567450187399305_n.jpg",
+    "telechargements\\644d6d72e2ddc24484ab5075-2023-04-29T19-20-56.912Z-343172030_202711319221925_7575233938808475144_n.jpg",
+    "telechargements\\644d6d72e2ddc24484ab5075-2023-04-29T19-20-56.913Z-343465537_749123596686341_1764140103666727222_n.jpg",
+    "telechargements\\644d6d72e2ddc24484ab5075-2023-04-29T19-20-56.914Z-343482386_743361863999161_6021490330248034542_n.jpg",
+    "telechargements\\644d6d72e2ddc24484ab5075-2023-04-29T19-20-56.915Z-343528366_6541560369207735_6073427875484292009_n.jpg",
+    "telechargements\\644d6d72e2ddc24484ab5075-2023-04-29T19-20-56.916Z-343584380_230541656246416_7734114221509119707_n.jpg",
+    "telechargements\\644d6d72e2ddc24484ab5075-2023-04-29T19-20-56.917Z-343584842_779444537079939_5181667658686183808_n.jpg",
+    "telechargements\\644d6d72e2ddc24484ab5075-2023-04-29T19-20-56.918Z-343595795_3178664165761324_7102776940850630461_n.jpg",
+    "telechargements\\644d6d72e2ddc24484ab5075-2023-04-29T19-20-56.920Z-343938647_3324289071156921_7587179704686786066_n.jpg",
+    "telechargements\\644d6d72e2ddc24484ab5075-2023-04-29T19-20-56.921Z-343998060_545659067747360_757198362988299472_n.jpg"
+  ],
+  "kilometrage": 137000,
+  "transmission": "Automatique",
+  "type_carrosserie": "SUV",
+  "type_carburant": "Essence",
+  "couleur_exterieur": "Noir",
+  "couleur_interieur": "Noir",
+  "moteur": "3.2L",
+  "numero_vin": "JH4DA1745GS002661",
+  "description": "Audi Q5 premium 2010,en excellente condition,toit ouvrant panoramique,intérieur en cuir ,kilométrage de grande route,inspection effectué.",
+  "vendeur": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644d6f47e2ddc24484ab508b"
+  },
+  "titre": " 2022 Hyundai ioniq 5",
+  "marque": "Hyundai",
+  "modele": "Ioniq 5",
+  "annee": 2022,
+  "prix": 55000,
+  "photos_voiture": [
+    "telechargements\\644d6e8be2ddc24484ab5084-2023-04-29T19-25-59.800Z-343624132_781597353547495_2444705144884102780_n.jpg",
+    "telechargements\\644d6e8be2ddc24484ab5084-2023-04-29T19-25-59.801Z-343650148_227561416562810_6619126904369758006_n.jpg",
+    "telechargements\\644d6e8be2ddc24484ab5084-2023-04-29T19-25-59.802Z-343934508_788211672919209_6722385876861160584_n.jpg",
+    "telechargements\\644d6e8be2ddc24484ab5084-2023-04-29T19-25-59.802Z-343983500_6257664580967682_5723529895422933880_n.jpg",
+    "telechargements\\644d6e8be2ddc24484ab5084-2023-04-29T19-25-59.803Z-343998386_150637867769363_5390257743502126830_n.jpg"
+  ],
+  "kilometrage": 35000,
+  "transmission": "Automatique",
+  "type_carrosserie": "SUV",
+  "type_carburant": "Électricité",
+  "couleur_exterieur": "Gris",
+  "couleur_interieur": "Gris",
+  "moteur": "Électrique",
+  "numero_vin": "JTJBM7FX0A5000592",
+  "description": "2022 Ioniq 5 Preferred LR AWD en parfaite condition. Toujours sous garantie et roule à merveille.",
+  "vendeur": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64665404a8a4973787a92699"
+  },
+  "titre": "2020 Tesla model x",
+  "marque": "Tesla",
+  "modele": "Model X",
+  "annee": 2020,
+  "prix": 109999,
+  "photos_voiture": [
+    "telechargements\\6-2023-05-18T16-36-20.537Z-322963284_570273268271409_4978359109130091148_n.jpg",
+    "telechargements\\6-2023-05-18T16-36-20.538Z-323091429_1383243289150918_5556079675736430644_n.jpg",
+    "telechargements\\6-2023-05-18T16-36-20.541Z-323165359_873918637190038_472468554031821148_n.jpg",
+    "telechargements\\6-2023-05-18T16-36-20.542Z-323256836_836004030807994_6817195130811281977_n.jpg",
+    "telechargements\\6-2023-05-18T16-36-20.544Z-323292130_1846519239032459_2684729237803498805_n.jpg",
+    "telechargements\\6-2023-05-18T16-36-20.545Z-323378862_3091099517856222_4478015241151928043_n.jpg",
+    "telechargements\\6-2023-05-18T16-36-20.547Z-323431915_5417366818369285_8497929379688407249_n.jpg"
+  ],
+  "kilometrage": 66200,
+  "transmission": "Automatique",
+  "type_carrosserie": "Break",
+  "type_carburant": "Électricité",
+  "couleur_exterieur": "Blanc",
+  "couleur_interieur": "Blanc",
+  "moteur": "AWD Tri-Motor",
+  "numero_vin": "JT2BG22K6W0242999",
+  "description": "Garantie jusqu’au 7 mars 2024 ou 80000 km. Très propre. Portes arrières falcon. Autopilot de série. Sièges blancs, avant et arrière chauffants. Système audio haut de gamme de 14 haut-parleurs, 1 caisson d'extrêmes-graves, connectivité haut de gamme, cartes satellites avec affichage de la circulation et navigation en temps réel. Système de surveillance à 8 caméras. Diffusion en continu de musique et de contenu multimédia Internet. Mises à jour sans fil plus fréquentes par réseau cellulaire. Navigateur Bluetooth. Antibrouillards à DEL.  Toit en verre teint, mags de 20’’, tapis Weathertech.  Pour plus de détails contacter moi par message",
+  "vendeur": 6,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6466549ea8a4973787a9269f"
+  },
+  "titre": "2015 Honda civic",
+  "marque": "Honda",
+  "modele": "Civic",
+  "annee": 2015,
+  "prix": 12000,
+  "photos_voiture": [
+    "telechargements\\6-2023-05-18T16-38-54.161Z-335402536_616302056978203_5659912839616893468_n.jpg",
+    "telechargements\\6-2023-05-18T16-38-54.163Z-335432150_742501494049950_5518654167921787482_n.jpg",
+    "telechargements\\6-2023-05-18T16-38-54.165Z-335445044_1433093234100111_8499836458302898393_n.jpg",
+    "telechargements\\6-2023-05-18T16-38-54.167Z-335883910_131621903193760_8940855435934754481_n.jpg",
+    "telechargements\\6-2023-05-18T16-38-54.168Z-336030519_967453917542677_8815136141003237858_n.jpg",
+    "telechargements\\6-2023-05-18T16-38-54.170Z-336112685_945061820073975_2846572265854259872_n.jpg",
+    "telechargements\\6-2023-05-18T16-38-54.171Z-336183933_1396503714428350_4089995412059275343_n.jpg",
+    "telechargements\\6-2023-05-18T16-38-54.174Z-336320216_719043969898998_7646247318278940632_n.jpg",
+    "telechargements\\6-2023-05-18T16-38-54.175Z-336665268_616098030367520_2233447936594955994_n.jpg"
+  ],
+  "kilometrage": 86000,
+  "transmission": "Automatique",
+  "type_carrosserie": "Berline",
+  "type_carburant": "Essence",
+  "couleur_exterieur": "Noir",
+  "couleur_interieur": "Noir",
+  "moteur": "1.8L",
+  "numero_vin": "JNKCA21D2VT502228",
+  "description": "HONDA CIVIC 2015 EX COUPE (REBUILD TITILE) AUTOMATIC TRANSMISSION 1.8 L SUNROOF BLUETOOTH, BACK UP CAMERA, SIDE CAMERA, TOUCH SCREEN, HEAT SEATED, MAGS PUSH START BUTTON, ELECTRIC WINDOWS AND MIRROR, VERY CLEAN INSIDE AND OUTSIDE MECHANIC PERFECT ENGINE AND TRANSMISSION A1, SERIOUS BUYERS ONLY.",
+  "vendeur": 6,
+  "__v": 0
+}]

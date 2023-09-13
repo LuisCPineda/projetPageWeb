@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE98BDEC-1AF7-7C55-59CA-15BF5BE3BFA0" name="message">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:33:54 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_message" id="4B87C7FB-B4E4-313C-FB3D-53B7BB901256">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:35:42 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fromUserId" id="A601021F-A844-1C1D-2DDC-E72D047832DA">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:34:11 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="toUserId" id="FD07BF47-7DCF-D202-9355-99525F4536ED">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:34:24 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="voitureId" id="6DC3CBED-5F9A-0E8E-7375-E38283617854">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:34:30 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>24</dataTypeSize>
+<ownDataTypeParameters>24,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="5279C2C2-9EC3-4C1F-1869-093D71FFB9AE">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:35:09 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="message" id="56AD8427-BE39-3765-A51F-9982F42148FB">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:35:14 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>900</dataTypeSize>
+<ownDataTypeParameters>900,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="333C10DB-0075-0B55-EF59-478BC85E345D" name="message PK">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:35:58 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F7B74176-2693-7944-D8CE-BB28458EC237" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B87C7FB-B4E4-313C-FB3D-53B7BB901256</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

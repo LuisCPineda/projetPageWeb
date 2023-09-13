@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="F63081AC-5BAA-B1BC-D5FE-F082CA495F51">
+<createdBy>Pc-Linux-Luis</createdBy>
+<createdTime>2023-05-19 02:27:22 UTC</createdTime>
+<ownerDesignName>Data modele car finder</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

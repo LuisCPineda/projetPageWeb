@@ -1,0 +1,265 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6D9C4D8-EAAF-1F21-E76B-84C1908F6D38" name="Voiture">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:13:11 UTC</createdTime>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id utilisateur" id="9ADE548A-7F08-9664-A8E9-57E02994645A">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:13:11 UTC</createdTime>
+<generatorID>4E47A928-E76E-1D87-22BC-E03E42887A5E</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<referedAttribute>5DEDAC3B-4C9A-64FE-5A5B-14EB2FD404E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id voiture" id="F90726F9-2877-2B94-8E16-8D95B63B3846">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>1C23FA6A-FFDB-D4B1-7DB3-2D8CDA8B48CD</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marque" id="135BF19F-08FF-B6C3-AAF6-81FE598770AD">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>CFD941CB-4669-307F-D098-308E05137B5F</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modele" id="51D1C677-F001-8347-E112-16118A70AD1C">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>9A257218-7814-5749-92D1-0847771DE137</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="annee" id="4161C92A-D0B4-18F9-128A-0995E9F35932">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>BA486EAA-A779-6701-4F9D-0A3A1B814920</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prix" id="BFEB51E8-B802-295E-11F6-AD9587FA4E6C">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>A147AF02-A6B9-80E5-F0D0-1299CBA21F4A</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="photos voiture" id="55CE6A64-DACD-97F5-4F93-6DB46D6E7F5E">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[path to uploads file]]></commentInRDBMS>
+<generatorID>A6F703AB-FAF6-9855-9305-8C3CB3DC3EBD</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kilometrage" id="6B8C8467-F370-0AD0-97CF-BD31EF46747A">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>EADD266A-BBBF-D083-792E-982B37813D76</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trasmission" id="B181959D-7A43-742E-1C95-360223142FB1">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>A253456A-4D7E-0E4A-F700-B8B1464AE959</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type carrosserie" id="915661B9-3893-2950-35ED-E3E5995B4542">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>61469C76-38C0-9E1C-5881-F8F5E3C1069D</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type carburant" id="0B76CEAC-B765-B56F-59F5-CA82597A70F9">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>C0DBBF29-D107-E73B-1558-9ECA791A8548</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="couleur" id="40D32F52-9E1A-94BF-A75A-0A69B5A26ABF">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>0F269A7D-61E4-56E1-C5B2-E971EF400745</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="utilisateur id utilisateur" id="81F29526-9BD0-04DF-14A7-1A246E16A043">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>4E47A928-E76E-1D87-22BC-E03E42887A5E</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<referedAttribute>5DEDAC3B-4C9A-64FE-5A5B-14EB2FD404E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="couleur interieur" id="73EAC943-09AD-2EC7-599D-9B6778097996">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>BC4819C2-6547-AD39-0E0D-FD20E9DD83DE</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type moteur" id="0BC940E1-718A-92A6-FF39-E8E9BF2D992B">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>273F2804-7BDD-6978-C04D-59EEC12157B5</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero vin" id="3377042F-5623-7D51-942C-47CCB9364172">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>CCABDC2E-500D-09C3-0FE8-CE9D9A4159E3</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A0EB0CB-4071-2A5C-370B-EF95D30926C3" name="Voiture PK">
+<createdBy>mraed</createdBy>
+<createdTime>2023-03-02 14:14:02 UTC</createdTime>
+<generatorID>0550745F-8064-797C-F4F0-538B52D59B79</generatorID>
+<ownerDesignName>data_modeler</ownerDesignName>
+<engineerTo>
+<item key="F6C1ABE4-E86D-78BB-0D51-025B35A5F266" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F90726F9-2877-2B94-8E16-8D95B63B3846</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
